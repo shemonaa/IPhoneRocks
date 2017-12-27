@@ -24,6 +24,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillResignActive(_ application: UIApplication) {
         // apple
+        /*
+         Add a new code...
+         add new comment...
+         */
 
     }
 
