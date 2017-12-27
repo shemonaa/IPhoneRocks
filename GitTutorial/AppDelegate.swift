@@ -24,6 +24,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationDidEnterBackground(_ application: UIApplication) {
+        /*
+        Changes from Shemona puri
+        */
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
