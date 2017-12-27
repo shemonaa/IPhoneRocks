@@ -17,25 +17,37 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         //test
         //Changes from shemona puri
+        
+        // apple
         return true
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
+        // apple
+
     }
 
     func applicationDidEnterBackground(_ application: UIApplication) {
+        // apple
+
         /*
         Changes from Shemona puri
         */
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
+        // apple
+
     }
 
     func applicationDidBecomeActive(_ application: UIApplication) {
+        // apple
+
     }
 
     func applicationWillTerminate(_ application: UIApplication) {
+        // apple
+
     }
 
 
