@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -14,7 +13,6 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GitTutorial" customModuleProvider="target" sceneMemberID="viewController">
-
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -24,38 +22,40 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pP3-1b-pev">
-                                <rect key="frame" x="106.5" y="28" width="162" height="30"/>
+                                <rect key="frame" x="164" y="28" width="47" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="162" id="FWj-7d-KO2"/>
                                     <constraint firstAttribute="height" constant="30" id="YZa-FQ-lLj"/>
                                 </constraints>
                                 <state key="normal" title="Sign In"/>
                             </button>
-
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ve-0N-iYC">
-                                <rect key="frame" x="74" y="159" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="first"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ve-0N-iYC">
+                                <rect key="frame" x="162" y="80" width="51" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="b5O-Zl-Msn"/>
+                                </constraints>
+                                <state key="normal" title="First"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ADC-BG-w2s">
-                                <rect key="frame" x="206" y="266" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ADC-BG-w2s">
+                                <rect key="frame" x="162" y="129" width="51" height="30"/>
                                 <state key="normal" title="second"/>
                             </button>
                         </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="pP3-1b-pev" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="2Ie-yc-xtg"/>
+                            <constraint firstItem="ADC-BG-w2s" firstAttribute="height" secondItem="7ve-0N-iYC" secondAttribute="height" id="FHh-zj-pbE"/>
+                            <constraint firstItem="7ve-0N-iYC" firstAttribute="top" secondItem="pP3-1b-pev" secondAttribute="bottom" constant="22" id="PTX-N4-wtA"/>
+                            <constraint firstItem="ADC-BG-w2s" firstAttribute="top" secondItem="7ve-0N-iYC" secondAttribute="bottom" constant="19" id="Vfj-ld-5nl"/>
+                            <constraint firstItem="7ve-0N-iYC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gft-uy-Icu"/>
+                            <constraint firstItem="ADC-BG-w2s" firstAttribute="width" secondItem="7ve-0N-iYC" secondAttribute="width" id="hmo-lp-BAE"/>
                             <constraint firstItem="pP3-1b-pev" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oDI-jN-BDA"/>
+                            <constraint firstItem="ADC-BG-w2s" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oqu-v7-Y9F"/>
                         </constraints>
-
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="118.29085457271366"/>
-
         </scene>
     </scenes>
 </document>
